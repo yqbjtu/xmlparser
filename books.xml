@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>  
 <books version="1.0.1"  exportDate="2016-10-10 12:30:50">
-  <comments>This is for groovy xml parse demo</comments>
+  <comments>This is for java xml parse demo</comments>
   <operator role="admin">root</operator>
+  <项目 语言="中文">中文字符</项目>
   <data>
     <book bookid="1" mark="001m">
       <name>Netty in action</name>
@@ -16,7 +17,7 @@
       <price>4</price>
     </book>
     <book bookid="4">
-      <name>The Definitive Guide to SQLite</name>
+      <name>SQLite权威指南</name>
       <price>50</price>
       <position url="http://www.jd.com">  
          <property name="prop1">value01</property>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<books version="1.0.2版本" exportDate="2016-10-16 17:53:00">
+  <!--这是根节点的注释2-->
+  <comments>This is for java xml parse 例子<![CDATA[你好 & hello]]></comments>
+</books>
