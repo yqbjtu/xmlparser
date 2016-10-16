@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<books version="1.0.1"  exportDate="2016-10-10 12:30:50">
+  <comments>This is for groovy xml parse demo</comments>
+  <operator role="admin">root</operator>
+  <data>
+    <book bookid="1" mark="001m">
+      <name>Netty in action</name>
+      <price>35</price>
+    </book>
+    <book bookid="2" mark="002m">
+      <name>MyCat in action</name>
+      <price>25</price>
+    </book>
+    <book bookid="3" mark="003m">
+      <name>MINA in action</name>
+      <price>4</price>
+    </book>
+    <book bookid="4">
+      <name>The Definitive Guide to SQLite</name>
+      <price>50</price>
+      <position url="http://www.jd.com">  
+         <property name="prop1">value01</property>
+         <property name="prop2">value02</property>
+      </position>
+    </book>
+  </data>
+</books>
