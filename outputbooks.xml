@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<books version="1.0.2版本" exportDate="2016-10-16 17:53:00">
+<books version="1.0.2版本" exportDate="2016-10-18 13:34:26">
   <!--这是根节点的注释2-->
   <comments>This is for java xml parse 例子<![CDATA[你好 & hello]]></comments>
+  <operator role="admin">root</operator>
+  <data>
+    <book bookid="1" mark="001m">
+      <name>Netty in action</name>
+      <price>35</price>
+    </book>
+    <book bookid="2" mark="002m">
+      <name>book-name2</name>
+      <price>15</price>
+    </book>
+    <book bookid="3" mark="003m">
+      <name>book-name3</name>
+      <price>15</price>
+    </book>
+    <book bookid="4">
+      <name>book-name4</name>
+      <price>15</price>
+      <position url="http://www.jd.com">
+        <property name="prop1">value01</property>
+        <property name="prop2">value02</property>
+      </position>
+    </book>
+  </data>
 </books>
